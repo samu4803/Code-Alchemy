@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820602805085",
+    "project_id": "aicode-ff349",
+    "storage_bucket": "aicode-ff349.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820602805085:android:32813fc62ad05b8e5ae6b4",
+        "android_client_info": {
+          "package_name": "com.example.ai_code"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOgK3hKQJ_XZb02S7XD_sa2jP8dpxYYM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
