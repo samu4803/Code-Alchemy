@@ -15,7 +15,7 @@ class SendPrompt extends StatefulWidget {
   });
   final PromptType promptType;
   final GenerativeModel model = GenerativeModel(
-    model: "gemini-pro",
+    model: "gemini-2.5-pro",
     apiKey: "AIzaSyCcP6OeGQlNcZr20nppFUDb4raWGEmkzjk",
   );
 
@@ -199,7 +199,6 @@ class _SendPromptState extends State<SendPrompt> {
           splitAnswer.removeWhere((element) => element == "\n");
           answer = splitAnswer.join();
           if (InitialData.instance.userData == null) {
-            print("Called this thing");
             await InitialData.instance.updateCredits();
           }
           break;
